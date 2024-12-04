@@ -4,7 +4,7 @@
 This project consists of two main components:
 - An assembler (`asm.cpp`) that converts assembly language code to machine code
 - An emulator (`emu.cpp`) that executes the generated machine code
-
+- 
 ## System Architecture
 * **Registers**: A, B (internal stack), PC (Program Counter), SP (Stack Pointer)
 * **Register Size**: 32-bit
@@ -16,12 +16,17 @@ This project consists of two main components:
   - First and second pass compilation
   - Error and warning logging
   - Generates object code and listing files
+  - 
+  ![](2-pa![2_PASS_ASSEMBLER_FLOW](https://github.com/user-attachments/assets/3491bf75-6282-4bc4-98e4-844d28ed33c6)
+ss assembler flow.png)
 
 - Emulator
   - Executes machine code hex instructions
   - Tracks program counter, stack pointer, and registers
   - Supports 18 different instruction types
   - Provides detailed execution trace and memory state
+  ![![EMULATOR_FLOW](https://github.com/user-attachments/assets/19a1edc8-f46c-4201-be4f-0cc2feba5e64)
+](emulator flow.png)
 
 ## Supported Instructions
 - Data manipulation: `ldc`, `adc`, `ldl`, `stl`, `ldnl`, `stnl`
