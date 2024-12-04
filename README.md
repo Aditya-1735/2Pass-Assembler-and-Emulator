@@ -1,4 +1,4 @@
-# Simple Assembly Emulator
+# 2Pass Assembler Emulator
 
 ## Overview
 This project consists of two main components:
