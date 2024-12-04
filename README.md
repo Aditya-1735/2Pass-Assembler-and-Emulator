@@ -66,9 +66,9 @@ This project consists of two main components:
 - Standard C++ libraries
 
 ## Author
-Aditya Sharma
-Department of Computer Science and Engineering
-IIT Patna
+- Aditya Sharma
+- Department of Computer Science and Engineering
+- IIT Patna
 
 ## License
 Academic project - For educational purposes
