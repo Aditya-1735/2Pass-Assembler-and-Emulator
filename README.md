@@ -32,9 +32,6 @@ This project consists of two main components:
 - Stack operations: `adj`, `a2sp`, `sp2a`
 - Control flow: `call`, `return`, `brz`, `brlz`, `br`
 - Halt instruction: `HALT`
-  ![Screenshot 2024-12-04 193517](https://github.com/user-attachments/assets/5991499c-50e2-4472-9f52-fc2c8f945eb9)
-  ![image](https://github.com/user-attachments/assets/ab52986c-07a3-4aba-9e0a-a0b57c15c1c7)
-
 
 ## Usage
 
@@ -53,6 +50,16 @@ This project consists of two main components:
 - `obj.o`: Object code file
 - `error.log`: Compilation errors and warnings
 - `emu_log.txt`: Execution trace log
+
+## Images Description
+### 1. File containing compilation errors and warnings log
+
+![Screenshot 2024-12-04 222736](https://github.com/user-attachments/assets/a3342e05-5683-4ea5-9c5f-9522408fe5e7)
+
+### 2. Bubble Sort algorithm execution trace
+
+![Screenshot 2024-12-04 223419](https://github.com/user-attachments/assets/056a70aa-d091-4b94-b011-3fea9f9fbf7a)
+![Screenshot 2024-12-04 223439](https://github.com/user-attachments/assets/0c7a086b-91fe-4d8e-a99d-259e5cabca03)
 
 ## Requirements
 - C++ compiler with C++11 support
