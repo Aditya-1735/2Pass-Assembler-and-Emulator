@@ -1,0 +1,12 @@
+Line : 3 Repeated label : label 
+Extra Token in Line on 00000004
+Line : 4 Invalid label : 0def 
+Line : 5 Unknown mnemonic found at : 00000005
+Line : 5 Unknown mnemonic found at : 00000005
+Error : Udefined Label : Label 'nonesuch' not found at 00000000
+Error : Udefined Label : Label '08ge' not found at 00000001
+Error : Missing Operand Required operand missing at 00000002
+Error : Unexpected Operand : Unexpected operand at 00000003
+Error : Udefined Label : Label '5, 6' not found at 00000004
+Warn : Halt Not Found : No HALT instruction in the program
+Warn : Unused label : Label label is defined but never used

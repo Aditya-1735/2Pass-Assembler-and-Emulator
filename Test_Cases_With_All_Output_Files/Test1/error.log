@@ -1,0 +1,3 @@
+Warning : infinite Loop Detected at 00000003
+Warn : Halt Not Found : No HALT instruction in the program
+Warn : Unused label : Label label is defined but never used

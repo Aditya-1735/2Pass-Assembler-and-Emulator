@@ -1,0 +1,35 @@
+00000000 a
+00000000 data 1
+00000001 data 2
+00000002 data 59
+00000003 data 66
+00000004 data 23
+00000005 data 1
+00000006 data 10
+00000007 i
+00000007 data 0
+00000008 total
+00000008 data 6
+00000009 max
+00000009 data -1
+0000000a while
+0000000a ldl total
+0000000b ldl i
+0000000c sub
+0000000d brlz end
+0000000e ldl i
+0000000f ldnl 0
+00000010 ldl max
+00000011 sub
+00000012 brlz nochange
+00000013 ldl i
+00000014 ldnl 0
+00000015 stl max
+00000016 nochange
+00000016 ldl i
+00000017 adc 1
+00000018 stl i
+00000019 br while
+0000001a end
+0000001a HALT
+[32mAssembly completed with errors or warnings. Check error.log for details.[0m

@@ -1,0 +1,5 @@
+0000004b val
+00000000 ldc     val
+00000001 adc     val2
+00000042 val2
+Assembly completed with errors or warnings. Check error.log for details.
