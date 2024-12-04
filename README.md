@@ -21,9 +21,8 @@ A two-pass assembler and emulator for a custom SIMPLE instruction set, implement
 - Control Flow: `call`, `return`, `brz`, `brlz`, `br`
 - Bitwise: `shl`, `shr`
 
-## Development
-- **Language**: ISO C89
-- **Compilation**: `gcc asm.c -o asm` and `gcc emu.c -o emu`
+## Compilation
+- `gcc asm.c -o asm` and `gcc emu.c -o emu`
 
 ## Project Components
 - Assembler source code
