@@ -32,6 +32,7 @@ This project consists of two main components:
 - Stack operations: `adj`, `a2sp`, `sp2a`
 - Control flow: `call`, `return`, `brz`, `brlz`, `br`
 - Halt instruction: `HALT`
+(For more details, see instructions_0.png and instructions_1.png)
 
 ## Usage
 
